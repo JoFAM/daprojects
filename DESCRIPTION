@@ -1,11 +1,13 @@
 Package: daprojects
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: RStudio projects for data analysis
+Version: 0.0.1
+Author: Joris Meys
+Maintainer: Joris Meys <Joris.Meys@UGent.be>
+Description: Add a simple project template for standard data analysis
+    to RStudio. This project template sets up a simple directory structure.
+Depends: R (>= 3.4.0)
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1

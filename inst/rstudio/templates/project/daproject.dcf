@@ -1,0 +1,9 @@
+Binding: setup_dap
+Title: Basic Project for Data Analysis
+OpenFiles: INFO.md
+
+Parameter: desc
+Widget: TextInput
+Label: Description
+Default: Title of the project
+Position: right
