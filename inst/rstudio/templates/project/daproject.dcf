@@ -7,3 +7,9 @@ Widget: TextInput
 Label: Description
 Default: Title of the project
 Position: right
+
+Parameter: info
+Widget: CheckboxInput
+Label: Add INFO.md
+Default: On
+Position: right

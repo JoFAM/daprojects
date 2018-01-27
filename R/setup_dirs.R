@@ -7,7 +7,7 @@
 #' @param structure a character vector with the relative paths that have
 #' to be created.
 #' @param recursive logical. Should elements of any path other than the
-#' last be created? See also \code{\link[base]{dir.create}}
+#' last be created? See also \code{\link[base:files2]{dir.create}}
 #'
 #' @return a logical vector (invisibly) indicating whether the creation
 #' of the directory worked.

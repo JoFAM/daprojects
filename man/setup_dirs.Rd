@@ -15,7 +15,7 @@ will be created.}
 to be created.}
 
 \item{recursive}{logical. Should elements of any path other than the
-last be created? See also \code{\link[base]{dir.create}}}
+last be created? See also \code{\link[base:files2]{dir.create}}}
 }
 \value{
 a logical vector (invisibly) indicating whether the creation
