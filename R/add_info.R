@@ -3,7 +3,7 @@
 #' Function to create a file INFO.md.
 #'
 #' @param path The path to the main folder of the project
-#' @param name The name of the project
+#' @param desc The name of the project
 #'
 #' @return NULL invisibly
 #'

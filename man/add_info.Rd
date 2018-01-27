@@ -9,7 +9,7 @@ add_info(path, desc)
 \arguments{
 \item{path}{The path to the main folder of the project}
 
-\item{name}{The name of the project}
+\item{desc}{The name of the project}
 }
 \value{
 NULL invisibly
