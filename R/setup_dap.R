@@ -10,7 +10,7 @@
 #' @param path a character vector with the path where the project should be created.
 #' @param desc a character vector with a short description of the project.
 #' This will be used as title.
-#' @param info a logical value indicating whether or not the file INFO.md
+#' @param readme a logical value indicating whether or not the file INFO.md
 #' should be created
 #' @param ... extra arguments captured from the project wizard.
 #' currently ignored.
@@ -18,7 +18,11 @@
 #' @return NULL invisibly. This function is only called for its side effects.
 #'
 #' @export
-setup_dap <- function(path, desc = character(0), info = TRUE, ...){
+setup_dap <- function(path,
+                      desc = character(0),
+                      readme = TRUE,
+                      addexamples = TRUE,
+                      ...){
   # Ensure path exists. Not sure whether this is necessary.
   if(!dir.exists(path)){
     dir.create(path, recursive = TRUE, showWarnings = FALSE)
@@ -26,6 +30,12 @@ setup_dap <- function(path, desc = character(0), info = TRUE, ...){
 
   # Setup the directory structure
   setup_dirs(path)
-  if(info) add_info(path, desc)
 
+  # Add files
+  if(readme) add_readme(path, desc)
+  if(addexamples){
+    add_examples(path, desc)
+  }
+
+  invisible(NULL)
 }
