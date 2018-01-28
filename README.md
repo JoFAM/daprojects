@@ -15,9 +15,11 @@ my students and freelancers. It merely sets up a directory structure with the fo
 
 Additionally it adds two options to the wizard.
 
-1. add INFO.md : selecting this option will add a markdown file as a template for the information file
+1. add README.md : selecting this option will add a markdown file as a template for the information file
 2. Description: this option allows you to give a short(!) description of the project. This description
-    is then used as the title for the file INFO.md.
+    is then used as the title for the file README.md.
+3. add example files : selecting this option will add a single example file
+Mainscript.R to the main directory of the project.
 
 ## Installation
 
