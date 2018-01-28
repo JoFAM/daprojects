@@ -4,7 +4,8 @@
 \alias{setup_dap}
 \title{Set up a project for data analysis.}
 \usage{
-setup_dap(path, desc = character(0), info = TRUE, ...)
+setup_dap(path, desc = character(0), readme = TRUE, addexamples = FALSE,
+  ...)
 }
 \arguments{
 \item{path}{a character vector with the path where the project should be created.}
@@ -12,8 +13,11 @@ setup_dap(path, desc = character(0), info = TRUE, ...)
 \item{desc}{a character vector with a short description of the project.
 This will be used as title.}
 
-\item{info}{a logical value indicating whether or not the file INFO.md
+\item{readme}{a logical value indicating whether or not the file README.md
 should be created}
+
+\item{addexamples}{a logical value indicating whether or not example
+files should be copied into the new project.}
 
 \item{...}{extra arguments captured from the project wizard.
 currently ignored.}

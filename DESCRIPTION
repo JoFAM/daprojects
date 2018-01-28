@@ -1,7 +1,7 @@
 Package: daprojects
 Type: Package
 Title: RStudio projects for data analysis
-Version: 0.0.2
+Version: 0.0.3
 Author: Joris Meys
 Maintainer: Joris Meys <Joris.Meys@UGent.be>
 Description: Add a simple project template for standard data analysis

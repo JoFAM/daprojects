@@ -1,6 +1,6 @@
 Binding: setup_dap
 Title: Basic Project for Data Analysis
-OpenFiles: INFO.md
+OpenFiles: README.md
 
 Parameter: desc
 Widget: TextInput
@@ -8,8 +8,14 @@ Label: Description
 Default: Title of the project
 Position: right
 
-Parameter: info
+Parameter: readme
 Widget: CheckboxInput
-Label: Add INFO.md
+Label: Add README.md
 Default: On
-Position: right
+Position: left
+
+Parameter: addexamples
+Widget: CheckboxInput
+Label: Add example files
+Default: Off
+Position: left
