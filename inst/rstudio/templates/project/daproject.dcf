@@ -17,5 +17,5 @@ Position: left
 Parameter: addexamples
 Widget: CheckboxInput
 Label: Add example files
-Default: On
+Default: Off
 Position: left

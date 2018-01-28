@@ -10,8 +10,10 @@
 #' @param path a character vector with the path where the project should be created.
 #' @param desc a character vector with a short description of the project.
 #' This will be used as title.
-#' @param readme a logical value indicating whether or not the file INFO.md
+#' @param readme a logical value indicating whether or not the file README.md
 #' should be created
+#' @param addexamples a logical value indicating whether or not example
+#' files should be copied into the new project.
 #' @param ... extra arguments captured from the project wizard.
 #' currently ignored.
 #'
@@ -21,7 +23,7 @@
 setup_dap <- function(path,
                       desc = character(0),
                       readme = TRUE,
-                      addexamples = TRUE,
+                      addexamples = FALSE,
                       ...){
   # Ensure path exists. Not sure whether this is necessary.
   if(!dir.exists(path)){
