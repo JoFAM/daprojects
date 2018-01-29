@@ -32,8 +32,13 @@ devtools::install_github("JoFAM/daprojects")
 After installing and loading the package, RStudio will automatically add the option
 "Basic Project for Data Analsysis" to the list of project types in the wizard.
 
-Note that on Windows you need [Rtools](https://cran.r-project.org/bin/windows/Rtools/) installed. 
-Otherwise you won't be able to build the package from source.
+If for some reason this doesn't work, a zip file with the package can be 
+downloaded from [the release page](https://github.com/JoFAM/daprojects/releases)
+and installed using:
+
+```
+install.packages("path/to/daprojects_x.y.z.zip", repos = NULL)
+```
 
 ## Development
 
